@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+}
+
+/* global container */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+section.index {
+    height: 100vh;
+    background: url('../assets/image\ 1.png') center center/cover no-repeat;
+}
+
+section.index header .content {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.index header .content h1 {
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: Lato;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+section.index header .content ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+section.index header .content ul li {
+    margin: 0 22px;
+    color: white;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+section.index header .content ul .call {
+    margin-left: 30px;
+    border: 1 solid #eee;
+    padding: 4.90px 10px;
+    border-radius: 1.34px;
+}
+
+section.index .container .title {
+    margin-left: 150px;
+    margin-top: 130px;
+    font-size: 60px;
+    color: white;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+section.index .container .subTitle {
+    margin-left: 230px;
+    margin-top: 10px;
+    font-size: 26px;
+    color: white;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+section.index .container h5 {
+    margin-left: 10px;
+}
+
+section.index .container h6 {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+section.index .container .group-button {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+
+}
+
+section.index .container .group-button .bookNow {
+    margin: 0px 10px;
+    border: none;
+    outline: none;
+    width: 100px;
+    background: #285A43;
+    border-radius: 1.34px;
+    color: white;
+    font-size: 15.23px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 7.48px;
+    letter-spacing: 0.12px;
+    word-wrap: break-word;
+}
+
+section.index .container .group-button img {
+    width: 220px;
+    height: 50px;
+}
+
+/* End section indx */
+section.offer h1 {
+    margin-top: 100px;
+    color: #285A43;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+section.offer .container .list-card {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 12px;
+}
+
+section.offer .item-card img {
+    width: 100%;
+}
+
+section.offer .item-card .content {
+    margin-top: -20px;
+}
+
+section.offer .item-card .content .content-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.offer .item-card .content .content-title button {
+    height: 33px;
+    width: 90px;
+    margin-right: 50px;
+    background-color: #337A5B;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+section.offer .item-card .content .content-title p {
+    color: #337A5B;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 9.98px;
+    word-wrap: break-word;
+    margin-left: 15px;
+}
+
+section.offer .item-card .content .content-price {
+    display: flex;
+}
+
+section.offer .item-card .content .content-price .discount {
+    color: #121212;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    line-height: 7.48px;
+    word-wrap: break-word;
+    margin-left: 15px;
+}
+
+section.offer .item-card .content .content-price .price {
+    color: #337A5B;
+    font-size: 16.34px;
+    font-family: Lato;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 7.48px;
+    word-wrap: break-word;
+    margin-left: 5px;
+}
+
+section.gallery {
+    margin-top: 150px;
+}
+
+section.gallery center {
+    color: #285A43;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 22.44px;
+    letter-spacing: 0.64px;
+    word-wrap: break-word;
+}
+
+section.gallery .content {
+    display: flex;
+    margin-top: 30px;
+    height: 100vh;
+    width: 100%;
+}
+
+section.gallery .content img {
+    height: 100%;
+    width: 700px;
+    margin-right: 5px;
+}
+section.gallery .content .list-img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px 5px;
+}
+section.gallery .content .list-img img{
+    height: 100%;
+    width: 400px;
+}
+
+/* end section gallery */
+section.aboutUs center {
+    margin-top: 75px;
+    color: #285A43;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 22.44px;
+    letter-spacing: 0.64px;
+    word-wrap: break-word;
+}
+
+section.aboutUs .list-card {
+    display: flex;
+    width: 100%;
+
+}
+
+section.aboutUs .content {
+    margin: 70px 30px;
+    height: 180px;
+    width: 300px;
+    background-color: #F8F8F8;
+
+}
+
+section.aboutUs .content .img-name {
+    display: flex;
+    align-items: center;
+
+}
+
+section.aboutUs .content .img-name img {
+    margin: 19px 19px;
+}
+
+section.aboutUs .content .img-name p {
+    margin-left: 10px;
+    color: #285A43;
+    font-size: 8.91px;
+    font-family: Lato;
+    font-weight: 900;
+    line-height: 12.47px;
+    word-wrap: break-word
+}
+
+section.aboutUs .content p {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 32px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+/* End section aboutUS */
+
+section.email {
+    margin-top: 50px;
+    height: 50vh;
+    background: url('../assets/baround1.png') center center/cover no-repeat;
+}
+
+section.email .title {
+    padding-top: 40px;
+    margin-right: 100px;
+    width: 800px;
+    height: 120px;
+}
+
+section.email h1 {
+    margin-top: 40px;
+    color: white;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 40px;
+    word-wrap: break-word
+}
+
+section.email .form-box {
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+}
+
+section.email .form-box input {
+    margin-left: 20%;
+    border: none;
+    outline: none;
+    height: 48px;
+    width: 500px;
+    font-size: 18px;
+    padding: 0px 16px;
+    background: rgba(217, 217, 217, 0.03);
+    border-radius: 2.23px;
+    border: 0.45px white solid;
+    backdrop-filter: blur(2.23px);
+
+}
+
+section.email .form-box button {
+
+    margin-left: 14px;
+    height: 50px;
+    width: 110px;
+    margin-right: 50px;
+    background-color: #337A5B;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+section.blog {
+    margin-top: 90px;
+}
+
+section.blog h1 {
+    margin-top: 100px;
+    color: #285A43;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+section.blog .list-card {
+    margin-top: 50px;
+    display: flex;
+
+}
+
+section.blog .itme-card {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+}
+
+section.blog .itme-card img {
+    width: 100%;
+    height: 60%;
+
+}
+
+section.blog .itme-card {
+    width: 400px;
+    height: 430px;
+}
+
+section.blog .itme-card .title {
+    height: 9%;
+    margin-top: 5px;
+    color: #285A43;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 900;
+    line-height: 18.47px;
+    word-wrap: break-word
+}
+
+section.blog .itme-card .des {
+    margin-top: 5px;
+    color: #121212;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 13.69px;
+    word-wrap: break-word;
+}
+
+section.blog .itme-card .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.blog .itme-card .content .data {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+section.blog .itme-card .content img {
+    height: 30px;
+    width: 30px;
+}
+
+section.blog .itme-card .content .read {
+    margin-left: 80px;
+    color: #285A43;
+    font-family: Lato;
+    font-weight: 900;
+    line-height: 9.98px;
+    word-wrap: break-word
+}
+
+section.blog .itme-card .content .foawrd {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+
+
+section.blog .itme-card .content .read img {
+    height: 20px;
+    width: 20px;
+}
+
+footer {
+
+    height: 300px;
+    width: 100%;
+    background-color: #000000;
+}
+
+footer h1 {
+    padding-top: 70px;
+    color: white;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 900;
+    line-height: 19.95px;
+    word-wrap: break-wo;
+    text-align: center;
+}
+
+footer .content {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    border-radius: 9999px;
+
+}
+
+footer .content img {
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+    border: 0.45px white solid;
+    border-radius: 40px;
+}
+
+footer .list-page {
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+
+}
+
+footer .list-page p {
+    margin: 40px 26px;
+    color: white;
+    font-size: 14.13px;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: 10.69px;
+    word-wrap: break-word;
+}
